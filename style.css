@@ -1,0 +1,295 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  align-items: center;
+}
+header nav ol {
+  display: flex;
+  gap: 40px;
+}
+header nav li {
+  display: block;
+  color: black;
+}
+header .logo svg {
+  height: 20px;
+}
+
+header a {
+  color: inherit;
+}
+header > div {
+  display: flex;
+  gap: 10px;
+}
+header button {
+  cursor: pointer;
+}
+header .log-in {
+  border: 0;
+  background: none;
+  text-transform: capitalize;
+}
+header .sign-up {
+  border: 0;
+  background: #59990f;
+  padding: 10px 15px;
+  border-radius: 10px;
+  color: white;
+  transition-duration: 1s;
+}
+header .sign-up:hover {
+  background: #72c01a;
+}
+
+/* main */
+main {
+  padding: 5%;
+}
+main .hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: black;
+  background: #f5efb5;
+  background: linear-gradient(
+    90deg,
+    rgba(245, 239, 181, 1) 0%,
+    rgba(201, 230, 195, 1) 100%
+  );
+  padding: 25px;
+  border-radius: 20px;
+}
+
+main .hero p {
+  font-size: 2em;
+  font-weight: bold;
+}
+
+main .hero a {
+  color: inherit;
+  text-decoration: underline;
+  margin-right: 5px;
+}
+
+/* -------------------- section 1 main -------------------- */
+.section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding: 50px;
+  color: white;
+  padding-right: 30%;
+  border-radius: 20px;
+  margin-top: 30px;
+  position: relative;
+  justify-content: space-between;
+}
+.section1 video {
+  border-radius: 20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+.section1 .header-section1 {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.section1 .header-section1 h2 {
+  font-size: 4.5em;
+}
+.section1 .header-section1 p {
+  font-size: 2em;
+  font-weight: bold;
+}
+.section1 .search-section1 > div:first-child {
+  background: rgba(206, 205, 205, 0.645);
+  display: flex;
+  border-radius: 30px;
+}
+.section1 .search-section1 > div:first-child button {
+  flex-grow: 1;
+  padding: 10px 0px;
+  border: 0;
+  background: transparent;
+  color: inherit;
+  font-size: 1.5em;
+}
+.section1 .search-section1 .selected-btn {
+  border: 3px solid white !important;
+  border-radius: 30px;
+}
+.section1 .search-section1 > div:last-child {
+  display: flex;
+  margin-top: 20px;
+  position: relative;
+  border: 4px solid black;
+  border-radius: 40px;
+  background: white;
+  align-items: center;
+  padding: 10px;
+}
+.section1 .search-section1 > div:last-child input {
+  border-radius: 40px;
+  flex-grow: 1;
+  padding: 10px;
+  font-size: 1.5em;
+  border: 0;
+  outline: 0;
+}
+.section1 .search-section1 > div:last-child button {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  font-size: 2em;
+  padding: 10px 20px;
+  border-radius: 40px;
+  background: black;
+  color: inherit;
+  border: 0;
+  position: absolute;
+  right: 5px;
+}
+.section1 .search-section1 > div:last-child button span {
+  transform: rotateY(180deg) scale(2.5);
+  color: greenyellow;
+}
+.section1 ul {
+  display: flex;
+  gap: 20px;
+}
+.section1 ul li {
+  display: block;
+  border: 1px solid white;
+  padding: 7px;
+  border-radius: 20px;
+}
+.section1 ul a {
+  color: inherit;
+}
+.section1 ul a span {
+  margin-left: 5px;
+}
+
+/* -------------------------- section 2 ------------ */
+.section2{
+  background-color: black;
+  color: white;
+  border-radius: 20px;
+  margin-top: 40px;
+  display: flex;
+}
+.section2>div{
+  flex: 1;
+}
+.section2>div:first-child{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-size: cover;
+  gap: 20px;
+  padding: 60px;
+}
+.section2>div:first-child h2{
+  font-size: 3em;
+}
+.section2>div:first-child p{
+  font-size: 1.2em;
+}
+.section2 .next-div-section2{
+  min-height: 100px;
+  height: auto;
+  background: white;
+  padding: 20px;
+  position: relative;
+  display: flex;
+  border-radius: 20px;
+}
+.section2 .next-div-section2 textarea{
+  border: 0;
+  outline: none;
+  font-size: 1.2em;
+  height: 100%;
+  flex: 1;
+  resize: none;
+  field-sizing: content;
+  width: 0px;           
+}
+.section2 .next-div-section2 textarea:focus + button svg{
+  display: none;
+}
+.section2 .next-div-section2 button span{
+  display: none;
+}
+.section2 .next-div-section2 textarea:focus + button span{
+  display: block;
+}
+.section2 .next-div-section2 button{
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding: 10px;
+  border: 0;
+  border-radius: 20px;
+  color: white;
+  background-color: black;
+}
+.section2 .next-div-section2 button svg{
+  color: #d2ff00;
+  width: 20px;
+  height: 20px;
+}
+/* --------------------------------------900px---------------------------- */
+
+
+@media screen and (max-width:900px){
+
+  .section2{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .section1{
+    padding-right: 50px;
+  }
+}
+
+  /* -------------------------------------500px-------------------------------- */
+
+@media screen and (max-width:500px){
+  .section1 .header-section1 p{
+    font-size: 1em;
+
+  }
+.section1 video {
+    border-radius: 0px;
+  }
+  .section2{
+    border-radius: 0;
+  }
+  main{
+    padding: 0;
+  }
+  .section1 .header-section1 h2 {
+    font-size:2em ;
+  }
+  main .hero p {
+    font-size: 1em;
+  }
+  
+}
