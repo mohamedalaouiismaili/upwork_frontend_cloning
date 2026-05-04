@@ -7,7 +7,9 @@
 
 This project is a front-end UI clone of the official [Upwork](https://www.upwork.com) landing page. It was built from scratch as an educational exercise to practice and master modern web layout techniques, specifically focusing on **CSS Flexbox**, responsive design principles, and semantic HTML structure. 
 
-*(Note: Add a screenshot of your final result here by dragging and dropping your `Screenshot From 2026-05-04 19-04-53.jpg` right here in GitHub)*
+<img width="1893" height="1006" alt="image" src="https://github.com/user-attachments/assets/35d783e9-9d7a-4ae2-bd73-6d3bd95c884d" />
+<img width="1893" height="1006" alt="image" src="https://github.com/user-attachments/assets/6949a674-fe1f-479c-b085-aaea02b0605f" />
+
 
 ### ✨ Features
 * **Modern Hero Section:** Accurate replication of Upwork's typography, spacing, and green brand accents.
