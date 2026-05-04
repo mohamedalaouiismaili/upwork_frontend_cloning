@@ -18,17 +18,4 @@ This project is a front-end UI clone of the official [Upwork](https://www.upwork
 
 ---
 
-## 📂 File Structure
 
-Here is the directory structure of the project:
-
-```text
-📦 upwork-clone
- ┣ 📂 css
- ┃ ┗ 📜 style.css         # External stylesheet for all UI styling
- ┣ 📂 images              # Contains all exported assets (logos, hero image)
- ┃ ┣ 📜 1.jpg
- ┃ ┣ 📜 2.jpg
- ┃ ┣ 📜 3.jpg
- ┃ ┗ 📜 4.png
- ┗ 📜 index.html          # Main HTML structure and layout
